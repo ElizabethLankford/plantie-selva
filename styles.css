@@ -352,6 +352,9 @@ h5{
     .prod-header{
         text-align: center;
     }
+    .prod-card{
+        flex-direction: column;
+    }
     footer{
         flex-direction: column;
     }
