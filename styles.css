@@ -219,13 +219,12 @@ margin-top: 1.5em;
 
 }
 .total-cart{
-    margin: 2em;
+    margin: 1em;
 }
-
 .cart-item-container{
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 90%;
     margin: 0 auto auto auto;
 }
 .cart-item-img-container>img{
@@ -276,6 +275,7 @@ margin-top: 1.5em;
 .content-wrap{
     padding-bottom: 6em;
 }
+
 footer{
     background-color: var(--headerBKG);
     color: var(--darker);
@@ -284,11 +284,12 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 1em 2em ;
-    height: 5em;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    margin-bottom: 0;
+}
+.footer-logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .footer-social{
     display: flex;
@@ -357,6 +358,7 @@ h5{
     }
     footer{
         flex-direction: column;
+        margin-bottom: 0;
     }
     .footer-credit{
         display: none;

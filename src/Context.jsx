@@ -20,7 +20,7 @@ function ContextProvider({ children }) {
       });
     }
 
-    console.log("item added to cart", cartItems);
+    alert(`${newItem.name} has been added to your cart.`);
   }
   function removeFromCart(id) {
     setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));

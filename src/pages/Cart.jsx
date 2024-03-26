@@ -24,11 +24,11 @@ function Cart() {
     setTimeout(() => {
       setButtonText("Place Order");
       emptyCart();
-    }, 3000);
+    }, 2000);
   }
 
   return (
-    <div>
+    <div className="cart-page">
       <div className="prod-header">
         <h1>Cart</h1>
       </div>
@@ -49,7 +49,9 @@ function Cart() {
               </button>
             </div>
           ) : (
-            <p>You have no items in your cart.</p>
+            <div className="no-items">
+              <p>You have no items in your cart.</p>
+            </div>
           )}
         </div>
       </div>

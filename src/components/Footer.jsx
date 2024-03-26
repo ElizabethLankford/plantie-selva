@@ -1,11 +1,17 @@
-import facebook from "../assets/images/facebook.png";
-import tiktok from "../assets/images/tiktok.png";
-import instagram from "../assets/images/instagram.png";
+import facebook from "/images/facebook.png";
+import tiktok from "/images/tiktok.png";
+import instagram from "/images/instagram.png";
+import plantlogo from "/images/plantlogo.png";
 
 function Footer() {
   return (
     <footer>
       <div className="footer-text">
+        <div className="footer-logo">
+          <img className="logo-img" height={25} src={plantlogo} />
+          <h3>Plantie Selva</h3>
+        </div>
+
         <p>Copyright © 2023 - Plantie Selva</p>
         <p>Dallas, TX</p>
       </div>
